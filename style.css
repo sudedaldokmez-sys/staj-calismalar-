@@ -130,3 +130,45 @@ footer {
     margin-top: 40px;
     color: #666;
 }
+.skill {
+    margin-bottom: 15px;
+}
+
+.bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.bar div {
+    color: white;
+    padding: 8px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.html {
+    width: 80%;
+    background-color: #e44d26;
+}
+
+.css {
+    width: 75%;
+    background-color: #264de4;
+}
+
+.wp {
+    width: 85%;
+    background-color: #21759b;
+}
+
+.git {
+    width: 70%;
+    background-color: #f1502f;
+}
+
+.seo {
+    width: 80%;
+    background-color: #28a745;
+}
