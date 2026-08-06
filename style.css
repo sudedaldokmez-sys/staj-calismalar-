@@ -51,7 +51,13 @@ section {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
 }
 
 button {
@@ -65,12 +71,17 @@ button {
 
 .btn {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 12px 20px;
     margin: 5px;
     text-decoration: none;
-    border-radius: 6px;
+    border-radius: 8px;
     background-color: #0066cc;
     color: white;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
 }
 
 .btn:hover {
