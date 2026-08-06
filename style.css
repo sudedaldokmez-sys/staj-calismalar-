@@ -49,3 +49,21 @@ h2{
     border-bottom:2px solid #ddd;
     padding-bottom:5px;
 }
+body {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
