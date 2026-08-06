@@ -9,6 +9,9 @@ body {
 
 img {
     display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
     margin: 20px auto;
     border-radius: 50%;
 }
@@ -36,6 +39,11 @@ nav a {
     margin: 10px;
     font-weight: bold;
     color: #333;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #0066cc;
 }
 
 section {
@@ -45,6 +53,7 @@ section {
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
 button {
     display: block;
     margin: 20px auto;
@@ -52,6 +61,20 @@ button {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: #0066cc;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
 }
 
 .dark-mode {
@@ -70,12 +93,7 @@ button {
 .dark-mode h2 {
     border-bottom: 2px solid #555;
 }
-.btn {
-    display: inline-block;
-    padding: 10px 15px;
-    margin: 5px;
-    text-decoration: none;
-    border-radius: 6px;
-    background-color: #0066cc;
-    color: white;
+
+.dark-mode .btn {
+    background-color: #4a90e2;
 }
