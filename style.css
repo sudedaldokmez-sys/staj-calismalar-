@@ -34,6 +34,16 @@ body{
 h1{
     text-align:center;
 }
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
 
 h2{
     border-bottom:2px solid #ddd;
