@@ -70,3 +70,12 @@ button {
 .dark-mode h2 {
     border-bottom: 2px solid #555;
 }
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: #0066cc;
+    color: white;
+}
