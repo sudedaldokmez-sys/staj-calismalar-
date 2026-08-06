@@ -9,6 +9,7 @@
 <body>
 
     <nav>
+        <button onclick="karanlikMod()">🌙 Karanlık Mod</button>
         <a href="#hakkimda">Hakkımda</a> |
         <a href="#yetenekler">Yetenekler</a> |
         <a href="#projeler">Projeler</a> |
@@ -76,6 +77,10 @@
 
         <p>📧 E-posta: sudedaldokmez@example.com</p>
     </section>
-
+<script>
+function karanlikMod() {
+    document.body.classList.toggle("dark-mode");
+}
+</script>
 </body>
 </html>
